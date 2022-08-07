@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>CATCARE - Konsultasi</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <style></style>
+ </head>
+ <body>
+ 	<div class="social-container">
+			<a href="index.php"><img src="images/logob.png" alt="avatar"></a>
+		</div>
+ 	<div id="card" style="width: 600px; height: 600px">
+ 		<div id="card-content">
+  			<div id="card-title">
+    			<h2>KONSULTASI</h2>
+    			<div class="underline-title" style="width:200px"></div>
+  			</div>
+  		<form method="post" class="form"> 
+  			<label for="name" style="padding-top:13px">&nbsp;Name</label>
+        <input
+          id="name"
+          placeholder="Contoh Nama"
+          class="form-content"
+          type="name"
+          name="name"
+          autocomplete="on"
+          required />
+          <div class="form-border"></div>
+      <label for="email" style="padding-top:22px">&nbsp;Email</label>
+        <input
+          id="email"
+          placeholder="contohemail@mail.com"
+          class="form-content"
+          type="email"
+          name="email"
+          required />
+          <div class="form-border"></div>
+      <label for="jenis" style="padding-top:22px">&nbsp;Jenis kucing</label>
+        <input
+          id="jenis"
+          placeholder="contoh jenis kucing: angora"
+          class="form-content"
+          type="jenis"
+          name="jenis"
+          required />
+          <div class="form-border"></div>
+      <label for="keluhan" style="padding-top:22px">&nbsp;Keluhan</label>
+        <textarea
+          id="keluhan"
+          placeholder=""
+          class="form-content"
+          type="reason"
+          name="reason"
+          required />
+        </textarea>
+          <div class="form-border"></div>
+      <input id="submit-btn" type="submit" name="Konsultasi" value="SUBMIT" />
+			<a href="index.php" id="signup">Back to home</a>
+  		</form>
+		</div>
+ 	</div>
+ </body>
+</html>
